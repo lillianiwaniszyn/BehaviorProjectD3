@@ -1,7 +1,7 @@
 class1();
 function class1(){
 var margin = {top: 20, right: 20, bottom: 70, left: 40},
-    width = 600 - margin.left - margin.right,
+    width = 900 - margin.left - margin.right,
     height = 300 - margin.top - margin.bottom;
 
 
@@ -50,7 +50,7 @@ d3.csv("bar-data.csv", function(error, data) {
       .call(yAxis)
     .append("text")
       .attr("transform", "rotate(-90)")
-      .attr("y", 6)
+      .attr("y", -35)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
       .text("Mean Appropriateness Ratings");
@@ -188,7 +188,112 @@ d3.csv("bar-data.csv", function(error, data) {
 			date1();
 			
 		}
+		});	
+ svg.append("foreignObject")
+		.attr("x", 450)
+		.attr("y", 250)
+        .attr("width", 100)
+        .attr("height", 100)
+        .append("xhtml:body")
+        .html("<form><input type=checkbox id=check1 /></form>")
+		.on("click", function(d, i){
+		console.log(svg.select("#check10").node().checked);
+		if (svg.select("#check10").node().checked == true){
+			d3.selectAll("svg").remove();
+			date1();
+			
+		}
+		});	
+ svg.append("foreignObject")
+		.attr("x", 500)
+		.attr("y", 250)
+        .attr("width", 100)
+        .attr("height", 100)
+        .append("xhtml:body")
+        .html("<form><input type=checkbox id=check11 /></form>")
+		.on("click", function(d, i){
+		console.log(svg.select("#check11").node().checked);
+		if (svg.select("#check11").node().checked == true){
+			d3.selectAll("svg").remove();
+			date1();
+			
+		}
 		});		
+ svg.append("foreignObject")
+		.attr("x", 550)
+		.attr("y", 250)
+        .attr("width", 100)
+        .attr("height", 100)
+        .append("xhtml:body")
+        .html("<form><input type=checkbox id=check12 /></form>")
+		.on("click", function(d, i){
+		console.log(svg.select("#check11").node().checked);
+		if (svg.select("#check11").node().checked == true){
+			d3.selectAll("svg").remove();
+			date1();
+			
+		}
+		});
+ svg.append("foreignObject")
+		.attr("x", 600)
+		.attr("y", 250)
+        .attr("width", 100)
+        .attr("height", 100)
+        .append("xhtml:body")
+        .html("<form><input type=checkbox id=check13 /></form>")
+		.on("click", function(d, i){
+		console.log(svg.select("#check11").node().checked);
+		if (svg.select("#check11").node().checked == true){
+			d3.selectAll("svg").remove();
+			date1();
+			
+		}
+		});		
+ svg.append("foreignObject")
+		.attr("x", 650)
+		.attr("y", 250)
+        .attr("width", 100)
+        .attr("height", 100)
+        .append("xhtml:body")
+        .html("<form><input type=checkbox id=check14 /></form>")
+		.on("click", function(d, i){
+		console.log(svg.select("#check11").node().checked);
+		if (svg.select("#check11").node().checked == true){
+			d3.selectAll("svg").remove();
+			date1();
+			
+		}
+		});	
+ svg.append("foreignObject")
+		.attr("x", 700)
+		.attr("y", 250)
+        .attr("width", 100)
+        .attr("height", 100)
+        .append("xhtml:body")
+        .html("<form><input type=checkbox id=check15 /></form>")
+		.on("click", function(d, i){
+		console.log(svg.select("#check11").node().checked);
+		if (svg.select("#check11").node().checked == true){
+			d3.selectAll("svg").remove();
+			date1();
+			
+		}
+		});		
+ svg.append("foreignObject")
+		.attr("x", 750)
+		.attr("y", 250)
+        .attr("width", 100)
+        .attr("height", 100)
+        .append("xhtml:body")
+        .html("<form><input type=checkbox id=check16 /></form>")
+		.on("click", function(d, i){
+		console.log(svg.select("#check11").node().checked);
+		if (svg.select("#check11").node().checked == true){
+			d3.selectAll("svg").remove();
+			date1();
+			
+		}
+		});			
   svg.selectAll("bar")
       .data(data)
     .enter().append("rect")
