@@ -61,10 +61,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", -50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check1 checked=true />class</form>")
+        .html("<form><input type=checkbox id=check1 checked=true />Class</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check1").node().checked);
 
@@ -72,10 +72,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 0)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check2 />date</form>")
+        .html("<form><input type=checkbox id=check2 />Date</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check2").node().checked);
 		if (svg.select("#check2").node().checked == true){
@@ -87,10 +87,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check3 />bus</form>")
+        .html("<form><input type=checkbox id=check3 />Bus</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check3").node().checked);
 		if (svg.select("#check3").node().checked == true){
@@ -105,7 +105,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check4 />family dinner</form>")
+        .html("<form><input type=checkbox id=check4 />Family dinner</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check4").node().checked);
 		if (svg.select("#check4").node().checked == true){
@@ -117,10 +117,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 210)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check5 />park</form>")
+        .html("<form><input type=checkbox id=check5 />Park</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check5").node().checked);
 		if (svg.select("#check5").node().checked == true){
@@ -133,10 +133,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 260)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check6 />church</form>")
+        .html("<form><input type=checkbox id=check6 />Church</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check6").node().checked);
 		if (svg.select("#check6").node().checked == true){
@@ -151,7 +151,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check7 />job interview</form>")
+        .html("<form><input type=checkbox id=check7 />Job interview</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check7").node().checked);
 		if (svg.select("#check7").node().checked == true){
@@ -163,10 +163,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 425)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check8 />sidewalk</form>")
+        .html("<form><input type=checkbox id=check8 />Sidewalk</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check8").node().checked);
 		if (svg.select("#check8").node().checked == true){
@@ -180,10 +180,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 500)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check9 />movies</form>")
+        .html("<form><input type=checkbox id=check9 />Movies</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check9").node().checked);
 		if (svg.select("#check9").node().checked == true){
@@ -195,10 +195,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 565)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check10 />bar</form>")
+        .html("<form><input type=checkbox id=check10 />Bar</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check10").node().checked);
 		if (svg.select("#check10").node().checked == true){
@@ -210,10 +210,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 610)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check11 />elevator</form>")
+        .html("<form><input type=checkbox id=check11 />Elevator</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check11").node().checked);
 		if (svg.select("#check11").node().checked == true){
@@ -225,10 +225,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 680)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check12 />restroom</form>")
+        .html("<form><input type=checkbox id=check12 />Restroom</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check12").node().checked);
 		if (svg.select("#check12").node().checked == true){
@@ -243,7 +243,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check13 />own room</form>")
+        .html("<form><input type=checkbox id=check13 />Own room</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check13").node().checked);
 		if (svg.select("#check13").node().checked == true){
@@ -258,7 +258,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check14 />dorm lounge</form>")
+        .html("<form><input type=checkbox id=check14 />Dorm lounge</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check14").node().checked);
 		if (svg.select("#check14").node().checked == true){
@@ -273,7 +273,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check15 />football game</form>")
+        .html("<form><input type=checkbox id=check15 />Football game</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check15").node().checked);
 		if (svg.select("#check15").node().checked == true){
@@ -285,7 +285,7 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 1060)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
         .html("<form><input type=checkbox id=check16 />Average*</form>")
@@ -374,10 +374,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", -50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check1  />class</form>")
+        .html("<form><input type=checkbox id=check1  />Class</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check1").node().checked);
 			if (svg.select("#check2").node().checked == true){
@@ -390,10 +390,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 0)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check2 checked=true />date</form>")
+        .html("<form><input type=checkbox id=check2 checked=true />Date</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check2").node().checked);
 		if (svg.select("#check2").node().checked == true){
@@ -405,10 +405,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check3 />bus</form>")
+        .html("<form><input type=checkbox id=check3 />Bus</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check3").node().checked);
 		if (svg.select("#check3").node().checked == true){
@@ -423,7 +423,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check4 />family dinner</form>")
+        .html("<form><input type=checkbox id=check4 />Family dinner</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check4").node().checked);
 		if (svg.select("#check4").node().checked == true){
@@ -435,10 +435,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 210)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check5 />park</form>")
+        .html("<form><input type=checkbox id=check5 />Park</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check5").node().checked);
 		if (svg.select("#check5").node().checked == true){
@@ -451,10 +451,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 260)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check6 />church</form>")
+        .html("<form><input type=checkbox id=check6 />Church</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check6").node().checked);
 		if (svg.select("#check6").node().checked == true){
@@ -469,7 +469,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check7 />job interview</form>")
+        .html("<form><input type=checkbox id=check7 />Job interview</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check7").node().checked);
 		if (svg.select("#check7").node().checked == true){
@@ -481,10 +481,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 425)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check8 />sidewalk</form>")
+        .html("<form><input type=checkbox id=check8 />Sidewalk</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check8").node().checked);
 		if (svg.select("#check8").node().checked == true){
@@ -498,10 +498,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 500)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check9 />movies</form>")
+        .html("<form><input type=checkbox id=check9 />Movies</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check9").node().checked);
 		if (svg.select("#check9").node().checked == true){
@@ -513,10 +513,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 565)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check10 />bar</form>")
+        .html("<form><input type=checkbox id=check10 />Bar</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check10").node().checked);
 		if (svg.select("#check10").node().checked == true){
@@ -528,10 +528,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 610)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check11 />elevator</form>")
+        .html("<form><input type=checkbox id=check11 />Elevator</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check11").node().checked);
 		if (svg.select("#check11").node().checked == true){
@@ -543,10 +543,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 680)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check12 />restroom</form>")
+        .html("<form><input type=checkbox id=check12 />Restroom</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check12").node().checked);
 		if (svg.select("#check12").node().checked == true){
@@ -561,7 +561,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check13 />own room</form>")
+        .html("<form><input type=checkbox id=check13 />Own room</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check13").node().checked);
 		if (svg.select("#check13").node().checked == true){
@@ -576,7 +576,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check14 />dorm lounge</form>")
+        .html("<form><input type=checkbox id=check14 />Dorm lounge</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check14").node().checked);
 		if (svg.select("#check14").node().checked == true){
@@ -591,7 +591,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check15 />football game</form>")
+        .html("<form><input type=checkbox id=check15 />Football game</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check15").node().checked);
 		if (svg.select("#check15").node().checked == true){
@@ -603,7 +603,7 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 1060)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
         .html("<form><input type=checkbox id=check16 />Average*</form>")
@@ -689,10 +689,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", -50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check1  />class</form>")
+        .html("<form><input type=checkbox id=check1  />Class</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check1").node().checked);
 			if (svg.select("#check1").node().checked == true){
@@ -705,10 +705,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 0)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check2  />date</form>")
+        .html("<form><input type=checkbox id=check2  />Date</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check2").node().checked);
 		if (svg.select("#check2").node().checked == true){
@@ -720,10 +720,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check3 checked=true />bus</form>")
+        .html("<form><input type=checkbox id=check3 checked=true />Bus</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check3").node().checked);
 		});	
@@ -733,7 +733,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check4 />family dinner</form>")
+        .html("<form><input type=checkbox id=check4 />Family dinner</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check4").node().checked);
 		if (svg.select("#check4").node().checked == true){
@@ -745,10 +745,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 210)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check5 />park</form>")
+        .html("<form><input type=checkbox id=check5 />Park</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check5").node().checked);
 		if (svg.select("#check5").node().checked == true){
@@ -761,10 +761,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 260)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check6 />church</form>")
+        .html("<form><input type=checkbox id=check6 />Church</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check6").node().checked);
 		if (svg.select("#check6").node().checked == true){
@@ -779,7 +779,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check7 />job interview</form>")
+        .html("<form><input type=checkbox id=check7 />Job interview</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check7").node().checked);
 		if (svg.select("#check7").node().checked == true){
@@ -791,10 +791,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 425)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check8 />sidewalk</form>")
+        .html("<form><input type=checkbox id=check8 />Sidewalk</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check8").node().checked);
 		if (svg.select("#check8").node().checked == true){
@@ -808,10 +808,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 500)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check9 />movies</form>")
+        .html("<form><input type=checkbox id=check9 />Movies</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check9").node().checked);
 		if (svg.select("#check9").node().checked == true){
@@ -823,10 +823,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 565)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check10 />bar</form>")
+        .html("<form><input type=checkbox id=check10 />Bar</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check10").node().checked);
 		if (svg.select("#check10").node().checked == true){
@@ -838,10 +838,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 610)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check11 />elevator</form>")
+        .html("<form><input type=checkbox id=check11 />Elevator</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check11").node().checked);
 		if (svg.select("#check11").node().checked == true){
@@ -853,10 +853,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 680)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check12 />restroom</form>")
+        .html("<form><input type=checkbox id=check12 />Restroom</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check12").node().checked);
 		if (svg.select("#check12").node().checked == true){
@@ -871,7 +871,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check13 />own room</form>")
+        .html("<form><input type=checkbox id=check13 />Own room</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check13").node().checked);
 		if (svg.select("#check13").node().checked == true){
@@ -886,7 +886,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check14 />dorm lounge</form>")
+        .html("<form><input type=checkbox id=check14 />Dorm lounge</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check14").node().checked);
 		if (svg.select("#check14").node().checked == true){
@@ -901,7 +901,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check15 />football game</form>")
+        .html("<form><input type=checkbox id=check15 />Football game</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check15").node().checked);
 		if (svg.select("#check15").node().checked == true){
@@ -913,10 +913,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 1060)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average**</form>")
+        .html("<form><input type=checkbox id=check16 />Average*</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -999,10 +999,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", -50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check1  />class</form>")
+        .html("<form><input type=checkbox id=check1  />Class</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check1").node().checked);
 			if (svg.select("#check1").node().checked == true){
@@ -1015,10 +1015,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 0)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check2  />date</form>")
+        .html("<form><input type=checkbox id=check2  />Date</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check2").node().checked);
 		if (svg.select("#check2").node().checked == true){
@@ -1030,10 +1030,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check3  />bus</form>")
+        .html("<form><input type=checkbox id=check3  />Bus</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check3").node().checked);
 		if (svg.select("#check3").node().checked == true){
@@ -1048,7 +1048,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check4 checked=true />family dinner</form>")
+        .html("<form><input type=checkbox id=check4 checked=true />Family dinner</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check4").node().checked);
 
@@ -1056,10 +1056,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 210)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check5 />park</form>")
+        .html("<form><input type=checkbox id=check5 />Park</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check5").node().checked);
 		if (svg.select("#check5").node().checked == true){
@@ -1072,10 +1072,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 260)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check6 />church</form>")
+        .html("<form><input type=checkbox id=check6 />Church</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check6").node().checked);
 		if (svg.select("#check6").node().checked == true){
@@ -1090,7 +1090,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check7 />job interview</form>")
+        .html("<form><input type=checkbox id=check7 />Job interview</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check7").node().checked);
 		if (svg.select("#check7").node().checked == true){
@@ -1102,10 +1102,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 425)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check8 />sidewalk</form>")
+        .html("<form><input type=checkbox id=check8 />Sidewalk</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check8").node().checked);
 		if (svg.select("#check8").node().checked == true){
@@ -1119,10 +1119,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 500)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check9 />movies</form>")
+        .html("<form><input type=checkbox id=check9 />Movies</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check9").node().checked);
 		if (svg.select("#check9").node().checked == true){
@@ -1134,10 +1134,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 565)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check10 />bar</form>")
+        .html("<form><input type=checkbox id=check10 />Bar</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check10").node().checked);
 		if (svg.select("#check10").node().checked == true){
@@ -1149,10 +1149,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 610)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check11 />elevator</form>")
+        .html("<form><input type=checkbox id=check11 />Elevator</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check11").node().checked);
 		if (svg.select("#check11").node().checked == true){
@@ -1164,10 +1164,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 680)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check12 />restroom</form>")
+        .html("<form><input type=checkbox id=check12 />Restroom</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check12").node().checked);
 		if (svg.select("#check12").node().checked == true){
@@ -1182,7 +1182,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check13 />own room</form>")
+        .html("<form><input type=checkbox id=check13 />Own room</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check13").node().checked);
 		if (svg.select("#check13").node().checked == true){
@@ -1197,7 +1197,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check14 />dorm lounge</form>")
+        .html("<form><input type=checkbox id=check14 />Dorm lounge</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check14").node().checked);
 		if (svg.select("#check14").node().checked == true){
@@ -1212,7 +1212,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check15 />football game</form>")
+        .html("<form><input type=checkbox id=check15 />Football game</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check15").node().checked);
 		if (svg.select("#check15").node().checked == true){
@@ -1224,10 +1224,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 1060)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average**</form>")
+        .html("<form><input type=checkbox id=check16 />Average*</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -1310,10 +1310,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", -50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check1  />class</form>")
+        .html("<form><input type=checkbox id=check1  />Class</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check1").node().checked);
 			if (svg.select("#check1").node().checked == true){
@@ -1326,10 +1326,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 0)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check2  />date</form>")
+        .html("<form><input type=checkbox id=check2  />Date</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check2").node().checked);
 		if (svg.select("#check2").node().checked == true){
@@ -1341,10 +1341,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check3  />bus</form>")
+        .html("<form><input type=checkbox id=check3  />Bus</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check3").node().checked);
 		if (svg.select("#check3").node().checked == true){
@@ -1359,7 +1359,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check4  />family dinner</form>")
+        .html("<form><input type=checkbox id=check4  />Family dinner</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check4").node().checked);
 				if (svg.select("#check4").node().checked == true){
@@ -1372,10 +1372,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 210)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check5 checked=true />park</form>")
+        .html("<form><input type=checkbox id=check5 checked=true />Park</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check5").node().checked);
 
@@ -1384,10 +1384,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 260)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check6 />church</form>")
+        .html("<form><input type=checkbox id=check6 />Church</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check6").node().checked);
 		if (svg.select("#check6").node().checked == true){
@@ -1402,7 +1402,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check7 />job interview</form>")
+        .html("<form><input type=checkbox id=check7 />Job interview</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check7").node().checked);
 		if (svg.select("#check7").node().checked == true){
@@ -1414,10 +1414,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 425)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check8 />sidewalk</form>")
+        .html("<form><input type=checkbox id=check8 />Sidewalk</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check8").node().checked);
 		if (svg.select("#check8").node().checked == true){
@@ -1431,10 +1431,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 500)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check9 />movies</form>")
+        .html("<form><input type=checkbox id=check9 />Movies</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check9").node().checked);
 		if (svg.select("#check9").node().checked == true){
@@ -1446,10 +1446,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 565)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check10 />bar</form>")
+        .html("<form><input type=checkbox id=check10 />Bar</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check10").node().checked);
 		if (svg.select("#check10").node().checked == true){
@@ -1461,10 +1461,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 610)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check11 />elevator</form>")
+        .html("<form><input type=checkbox id=check11 />Elevator</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check11").node().checked);
 		if (svg.select("#check11").node().checked == true){
@@ -1476,10 +1476,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 680)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check12 />restroom</form>")
+        .html("<form><input type=checkbox id=check12 />Restroom</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check12").node().checked);
 		if (svg.select("#check12").node().checked == true){
@@ -1494,7 +1494,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check13 />own room</form>")
+        .html("<form><input type=checkbox id=check13 />Own room</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check13").node().checked);
 		if (svg.select("#check13").node().checked == true){
@@ -1509,7 +1509,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check14 />dorm lounge</form>")
+        .html("<form><input type=checkbox id=check14 />Dorm lounge</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check14").node().checked);
 		if (svg.select("#check14").node().checked == true){
@@ -1524,7 +1524,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check15 />football game</form>")
+        .html("<form><input type=checkbox id=check15 />Football game</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check15").node().checked);
 		if (svg.select("#check15").node().checked == true){
@@ -1536,10 +1536,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 1060)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average**</form>")
+        .html("<form><input type=checkbox id=check16 />Average*</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -1622,10 +1622,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", -50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check1  />class</form>")
+        .html("<form><input type=checkbox id=check1  />Class</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check1").node().checked);
 			if (svg.select("#check1").node().checked == true){
@@ -1638,10 +1638,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 0)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check2  />date</form>")
+        .html("<form><input type=checkbox id=check2  />Date</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check2").node().checked);
 		if (svg.select("#check2").node().checked == true){
@@ -1653,10 +1653,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check3  />bus</form>")
+        .html("<form><input type=checkbox id=check3  />Bus</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check3").node().checked);
 		if (svg.select("#check3").node().checked == true){
@@ -1671,7 +1671,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check4  />family dinner</form>")
+        .html("<form><input type=checkbox id=check4  />Family dinner</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check4").node().checked);
 				if (svg.select("#check4").node().checked == true){
@@ -1684,10 +1684,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 210)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check5  />park</form>")
+        .html("<form><input type=checkbox id=check5  />Park</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check5").node().checked);
 				if (svg.select("#check5").node().checked == true){
@@ -1701,10 +1701,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 260)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check6 checked=true/>church</form>")
+        .html("<form><input type=checkbox id=check6 checked=true/>Church</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check6").node().checked);
 
@@ -1715,7 +1715,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check7 />job interview</form>")
+        .html("<form><input type=checkbox id=check7 />Job interview</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check7").node().checked);
 		if (svg.select("#check7").node().checked == true){
@@ -1727,10 +1727,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 425)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check8 />sidewalk</form>")
+        .html("<form><input type=checkbox id=check8 />Sidewalk</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check8").node().checked);
 		if (svg.select("#check8").node().checked == true){
@@ -1744,10 +1744,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 500)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check9 />movies</form>")
+        .html("<form><input type=checkbox id=check9 />Movies</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check9").node().checked);
 		if (svg.select("#check9").node().checked == true){
@@ -1759,10 +1759,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 565)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check10 />bar</form>")
+        .html("<form><input type=checkbox id=check10 />Bar</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check10").node().checked);
 		if (svg.select("#check10").node().checked == true){
@@ -1774,10 +1774,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 610)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check11 />elevator</form>")
+        .html("<form><input type=checkbox id=check11 />Elevator</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check11").node().checked);
 		if (svg.select("#check11").node().checked == true){
@@ -1789,10 +1789,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 680)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check12 />restroom</form>")
+        .html("<form><input type=checkbox id=check12 />Restroom</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check12").node().checked);
 		if (svg.select("#check12").node().checked == true){
@@ -1807,7 +1807,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check13 />own room</form>")
+        .html("<form><input type=checkbox id=check13 />Own room</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check13").node().checked);
 		if (svg.select("#check13").node().checked == true){
@@ -1822,7 +1822,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check14 />dorm lounge</form>")
+        .html("<form><input type=checkbox id=check14 />Dorm lounge</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check14").node().checked);
 		if (svg.select("#check14").node().checked == true){
@@ -1837,7 +1837,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check15 />football game</form>")
+        .html("<form><input type=checkbox id=check15 />Football game</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check15").node().checked);
 		if (svg.select("#check15").node().checked == true){
@@ -1849,10 +1849,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 1060)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average**</form>")
+        .html("<form><input type=checkbox id=check16 />Average*</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -1935,10 +1935,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", -50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check1  />class</form>")
+        .html("<form><input type=checkbox id=check1  />Class</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check1").node().checked);
 			if (svg.select("#check1").node().checked == true){
@@ -1951,10 +1951,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 0)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check2  />date</form>")
+        .html("<form><input type=checkbox id=check2  />Date</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check2").node().checked);
 		if (svg.select("#check2").node().checked == true){
@@ -1966,10 +1966,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check3  />bus</form>")
+        .html("<form><input type=checkbox id=check3  />Bus</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check3").node().checked);
 		if (svg.select("#check3").node().checked == true){
@@ -1984,7 +1984,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check4  />family dinner</form>")
+        .html("<form><input type=checkbox id=check4  />Family dinner</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check4").node().checked);
 				if (svg.select("#check4").node().checked == true){
@@ -1997,10 +1997,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 210)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check5  />park</form>")
+        .html("<form><input type=checkbox id=check5  />Park</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check5").node().checked);
 				if (svg.select("#check5").node().checked == true){
@@ -2014,10 +2014,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 260)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check6 />church</form>")
+        .html("<form><input type=checkbox id=check6 />Church</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check6").node().checked);
 				if (svg.select("#check6").node().checked == true){
@@ -2033,7 +2033,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check7 checked=true/>job interview</form>")
+        .html("<form><input type=checkbox id=check7 checked=true/>Job interview</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check7").node().checked);
 
@@ -2041,10 +2041,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 425)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check8 />sidewalk</form>")
+        .html("<form><input type=checkbox id=check8 />Sidewalk</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check8").node().checked);
 		if (svg.select("#check8").node().checked == true){
@@ -2058,10 +2058,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 500)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check9 />movies</form>")
+        .html("<form><input type=checkbox id=check9 />Movies</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check9").node().checked);
 		if (svg.select("#check9").node().checked == true){
@@ -2073,10 +2073,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 565)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check10 />bar</form>")
+        .html("<form><input type=checkbox id=check10 />Bar</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check10").node().checked);
 		if (svg.select("#check10").node().checked == true){
@@ -2088,10 +2088,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 610)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check11 />elevator</form>")
+        .html("<form><input type=checkbox id=check11 />Elevator</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check11").node().checked);
 		if (svg.select("#check11").node().checked == true){
@@ -2103,10 +2103,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 680)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check12 />restroom</form>")
+        .html("<form><input type=checkbox id=check12 />Restroom</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check12").node().checked);
 		if (svg.select("#check12").node().checked == true){
@@ -2121,7 +2121,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check13 />own room</form>")
+        .html("<form><input type=checkbox id=check13 />Own room</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check13").node().checked);
 		if (svg.select("#check13").node().checked == true){
@@ -2136,7 +2136,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check14 />dorm lounge</form>")
+        .html("<form><input type=checkbox id=check14 />Dorm lounge</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check14").node().checked);
 		if (svg.select("#check14").node().checked == true){
@@ -2151,7 +2151,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check15 />football game</form>")
+        .html("<form><input type=checkbox id=check15 />Football game</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check15").node().checked);
 		if (svg.select("#check15").node().checked == true){
@@ -2163,10 +2163,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 1060)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average**</form>")
+        .html("<form><input type=checkbox id=check16 />Average*</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -2249,10 +2249,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", -50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check1  />class</form>")
+        .html("<form><input type=checkbox id=check1  />Class</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check1").node().checked);
 			if (svg.select("#check1").node().checked == true){
@@ -2265,10 +2265,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 0)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check2  />date</form>")
+        .html("<form><input type=checkbox id=check2  />Date</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check2").node().checked);
 		if (svg.select("#check2").node().checked == true){
@@ -2280,10 +2280,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check3  />bus</form>")
+        .html("<form><input type=checkbox id=check3  />Bus</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check3").node().checked);
 		if (svg.select("#check3").node().checked == true){
@@ -2298,7 +2298,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check4  />family dinner</form>")
+        .html("<form><input type=checkbox id=check4  />Family dinner</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check4").node().checked);
 				if (svg.select("#check4").node().checked == true){
@@ -2311,10 +2311,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 210)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check5  />park</form>")
+        .html("<form><input type=checkbox id=check5  />Park</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check5").node().checked);
 				if (svg.select("#check5").node().checked == true){
@@ -2328,10 +2328,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 260)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check6 />church</form>")
+        .html("<form><input type=checkbox id=check6 />Church</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check6").node().checked);
 				if (svg.select("#check6").node().checked == true){
@@ -2347,7 +2347,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check7 />job interview</form>")
+        .html("<form><input type=checkbox id=check7 />Job interview</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check7").node().checked);
 				if (svg.select("#check7").node().checked == true){
@@ -2360,10 +2360,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 425)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check8 checked=true/>sidewalk</form>")
+        .html("<form><input type=checkbox id=check8 checked=true/>Sidewalk</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check8").node().checked);
 
@@ -2373,10 +2373,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 500)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check9 />movies</form>")
+        .html("<form><input type=checkbox id=check9 />Movies</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check9").node().checked);
 		if (svg.select("#check9").node().checked == true){
@@ -2388,10 +2388,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 565)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check10 />bar</form>")
+        .html("<form><input type=checkbox id=check10 />Bar</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check10").node().checked);
 		if (svg.select("#check10").node().checked == true){
@@ -2403,10 +2403,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 610)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check11 />elevator</form>")
+        .html("<form><input type=checkbox id=check11 />Elevator</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check11").node().checked);
 		if (svg.select("#check11").node().checked == true){
@@ -2418,10 +2418,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 680)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check12 />restroom</form>")
+        .html("<form><input type=checkbox id=check12 />Restroom</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check12").node().checked);
 		if (svg.select("#check12").node().checked == true){
@@ -2436,7 +2436,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check13 />own room</form>")
+        .html("<form><input type=checkbox id=check13 />Own room</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check13").node().checked);
 		if (svg.select("#check13").node().checked == true){
@@ -2451,7 +2451,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check14 />dorm lounge</form>")
+        .html("<form><input type=checkbox id=check14 />Dorm lounge</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check14").node().checked);
 		if (svg.select("#check14").node().checked == true){
@@ -2466,7 +2466,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check15 />football game</form>")
+        .html("<form><input type=checkbox id=check15 />Football game</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check15").node().checked);
 		if (svg.select("#check15").node().checked == true){
@@ -2478,10 +2478,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 1060)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average**</form>")
+        .html("<form><input type=checkbox id=check16 />Average*</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -2564,10 +2564,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", -50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check1  />class</form>")
+        .html("<form><input type=checkbox id=check1  />Class</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check1").node().checked);
 			if (svg.select("#check1").node().checked == true){
@@ -2580,10 +2580,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 0)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check2  />date</form>")
+        .html("<form><input type=checkbox id=check2  />Date</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check2").node().checked);
 		if (svg.select("#check2").node().checked == true){
@@ -2595,10 +2595,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check3  />bus</form>")
+        .html("<form><input type=checkbox id=check3  />Bus</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check3").node().checked);
 		if (svg.select("#check3").node().checked == true){
@@ -2613,7 +2613,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check4  />family dinner</form>")
+        .html("<form><input type=checkbox id=check4  />Family dinner</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check4").node().checked);
 				if (svg.select("#check4").node().checked == true){
@@ -2626,10 +2626,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 210)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check5  />park</form>")
+        .html("<form><input type=checkbox id=check5  />Park</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check5").node().checked);
 				if (svg.select("#check5").node().checked == true){
@@ -2643,10 +2643,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 260)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check6 />church</form>")
+        .html("<form><input type=checkbox id=check6 />Church</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check6").node().checked);
 				if (svg.select("#check6").node().checked == true){
@@ -2662,7 +2662,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check7 />job interview</form>")
+        .html("<form><input type=checkbox id=check7 />Job interview</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check7").node().checked);
 				if (svg.select("#check7").node().checked == true){
@@ -2675,10 +2675,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 425)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check8 />sidewalk</form>")
+        .html("<form><input type=checkbox id=check8 />Sidewalk</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check8").node().checked);
 				if (svg.select("#check8").node().checked == true){
@@ -2693,10 +2693,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 500)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check9 checked=true/>movies</form>")
+        .html("<form><input type=checkbox id=check9 checked=true/>Movies</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check9").node().checked);
 
@@ -2704,10 +2704,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 565)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check10 />bar</form>")
+        .html("<form><input type=checkbox id=check10 />Bar</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check10").node().checked);
 		if (svg.select("#check10").node().checked == true){
@@ -2719,10 +2719,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 610)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check11 />elevator</form>")
+        .html("<form><input type=checkbox id=check11 />Elevator</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check11").node().checked);
 		if (svg.select("#check11").node().checked == true){
@@ -2734,10 +2734,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 680)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check12 />restroom</form>")
+        .html("<form><input type=checkbox id=check12 />Restroom</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check12").node().checked);
 		if (svg.select("#check12").node().checked == true){
@@ -2752,7 +2752,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check13 />own room</form>")
+        .html("<form><input type=checkbox id=check13 />Own room</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check13").node().checked);
 		if (svg.select("#check13").node().checked == true){
@@ -2767,7 +2767,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check14 />dorm lounge</form>")
+        .html("<form><input type=checkbox id=check14 />Dorm lounge</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check14").node().checked);
 		if (svg.select("#check14").node().checked == true){
@@ -2782,7 +2782,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check15 />football game</form>")
+        .html("<form><input type=checkbox id=check15 />Football game</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check15").node().checked);
 		if (svg.select("#check15").node().checked == true){
@@ -2794,10 +2794,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 1060)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average**</form>")
+        .html("<form><input type=checkbox id=check16 />Average*</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -2880,10 +2880,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", -50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check1  />class</form>")
+        .html("<form><input type=checkbox id=check1  />Class</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check1").node().checked);
 			if (svg.select("#check1").node().checked == true){
@@ -2896,10 +2896,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 0)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check2  />date</form>")
+        .html("<form><input type=checkbox id=check2  />Date</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check2").node().checked);
 		if (svg.select("#check2").node().checked == true){
@@ -2911,10 +2911,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check3  />bus</form>")
+        .html("<form><input type=checkbox id=check3  />Bus</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check3").node().checked);
 		if (svg.select("#check3").node().checked == true){
@@ -2929,7 +2929,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check4  />family dinner</form>")
+        .html("<form><input type=checkbox id=check4  />Family dinner</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check4").node().checked);
 				if (svg.select("#check4").node().checked == true){
@@ -2942,10 +2942,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 210)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check5  />park</form>")
+        .html("<form><input type=checkbox id=check5  />Park</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check5").node().checked);
 				if (svg.select("#check5").node().checked == true){
@@ -2959,10 +2959,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 260)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check6 />church</form>")
+        .html("<form><input type=checkbox id=check6 />Church</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check6").node().checked);
 				if (svg.select("#check6").node().checked == true){
@@ -2978,7 +2978,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check7 />job interview</form>")
+        .html("<form><input type=checkbox id=check7 />Job interview</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check7").node().checked);
 				if (svg.select("#check7").node().checked == true){
@@ -2991,10 +2991,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 425)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check8 />sidewalk</form>")
+        .html("<form><input type=checkbox id=check8 />Sidewalk</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check8").node().checked);
 				if (svg.select("#check8").node().checked == true){
@@ -3009,10 +3009,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 500)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check9 />movies</form>")
+        .html("<form><input type=checkbox id=check9 />Movies</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check9").node().checked);
 				if (svg.select("#check9").node().checked == true){
@@ -3025,10 +3025,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 565)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check10 checked=true/>bar</form>")
+        .html("<form><input type=checkbox id=check10 checked=true/>Bar</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check10").node().checked);
 
@@ -3036,10 +3036,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 610)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check11 />elevator</form>")
+        .html("<form><input type=checkbox id=check11 />Elevator</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check11").node().checked);
 		if (svg.select("#check11").node().checked == true){
@@ -3051,10 +3051,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 680)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check12 />restroom</form>")
+        .html("<form><input type=checkbox id=check12 />Restroom</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check12").node().checked);
 		if (svg.select("#check12").node().checked == true){
@@ -3069,7 +3069,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check13 />own room</form>")
+        .html("<form><input type=checkbox id=check13 />Own room</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check13").node().checked);
 		if (svg.select("#check13").node().checked == true){
@@ -3084,7 +3084,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check14 />dorm lounge</form>")
+        .html("<form><input type=checkbox id=check14 />Dorm lounge</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check14").node().checked);
 		if (svg.select("#check14").node().checked == true){
@@ -3099,7 +3099,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check15 />football game</form>")
+        .html("<form><input type=checkbox id=check15 />Football game</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check15").node().checked);
 		if (svg.select("#check15").node().checked == true){
@@ -3111,10 +3111,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 1060)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average**</form>")
+        .html("<form><input type=checkbox id=check16 />Average*</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -3197,10 +3197,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", -50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check1  />class</form>")
+        .html("<form><input type=checkbox id=check1  />Class</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check1").node().checked);
 			if (svg.select("#check1").node().checked == true){
@@ -3213,10 +3213,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 0)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check2  />date</form>")
+        .html("<form><input type=checkbox id=check2  />Date</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check2").node().checked);
 		if (svg.select("#check2").node().checked == true){
@@ -3228,10 +3228,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check3  />bus</form>")
+        .html("<form><input type=checkbox id=check3  />Bus</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check3").node().checked);
 		if (svg.select("#check3").node().checked == true){
@@ -3246,7 +3246,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check4  />family dinner</form>")
+        .html("<form><input type=checkbox id=check4  />Family dinner</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check4").node().checked);
 				if (svg.select("#check4").node().checked == true){
@@ -3259,10 +3259,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 210)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check5  />park</form>")
+        .html("<form><input type=checkbox id=check5  />Park</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check5").node().checked);
 				if (svg.select("#check5").node().checked == true){
@@ -3276,10 +3276,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 260)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check6 />church</form>")
+        .html("<form><input type=checkbox id=check6 />Church</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check6").node().checked);
 				if (svg.select("#check6").node().checked == true){
@@ -3295,7 +3295,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check7 />job interview</form>")
+        .html("<form><input type=checkbox id=check7 />Job interview</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check7").node().checked);
 				if (svg.select("#check7").node().checked == true){
@@ -3308,10 +3308,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 425)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check8 />sidewalk</form>")
+        .html("<form><input type=checkbox id=check8 />Sidewalk</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check8").node().checked);
 				if (svg.select("#check8").node().checked == true){
@@ -3326,10 +3326,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 500)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check9 />movies</form>")
+        .html("<form><input type=checkbox id=check9 />Movies</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check9").node().checked);
 				if (svg.select("#check9").node().checked == true){
@@ -3342,10 +3342,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 565)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check10 />bar</form>")
+        .html("<form><input type=checkbox id=check10 />Bar</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check10").node().checked);
 				if (svg.select("#check10").node().checked == true){
@@ -3358,10 +3358,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 610)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check11 checked=true/>elevator</form>")
+        .html("<form><input type=checkbox id=check11 checked=true/>Elevator</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check11").node().checked);
 
@@ -3369,10 +3369,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 680)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check12 />restroom</form>")
+        .html("<form><input type=checkbox id=check12 />Restroom</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check12").node().checked);
 		if (svg.select("#check12").node().checked == true){
@@ -3387,7 +3387,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check13 />own room</form>")
+        .html("<form><input type=checkbox id=check13 />Own room</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check13").node().checked);
 		if (svg.select("#check13").node().checked == true){
@@ -3402,7 +3402,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check14 />dorm lounge</form>")
+        .html("<form><input type=checkbox id=check14 />Dorm lounge</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check14").node().checked);
 		if (svg.select("#check14").node().checked == true){
@@ -3417,7 +3417,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check15 />football game</form>")
+        .html("<form><input type=checkbox id=check15 />Football game</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check15").node().checked);
 		if (svg.select("#check15").node().checked == true){
@@ -3429,10 +3429,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 1060)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average**</form>")
+        .html("<form><input type=checkbox id=check16 />Average*</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -3515,10 +3515,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", -50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check1  />class</form>")
+        .html("<form><input type=checkbox id=check1  />Class</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check1").node().checked);
 			if (svg.select("#check1").node().checked == true){
@@ -3531,10 +3531,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 0)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check2  />date</form>")
+        .html("<form><input type=checkbox id=check2  />Date</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check2").node().checked);
 		if (svg.select("#check2").node().checked == true){
@@ -3546,10 +3546,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check3  />bus</form>")
+        .html("<form><input type=checkbox id=check3  />Bus</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check3").node().checked);
 		if (svg.select("#check3").node().checked == true){
@@ -3564,7 +3564,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check4  />family dinner</form>")
+        .html("<form><input type=checkbox id=check4  />Family dinner</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check4").node().checked);
 				if (svg.select("#check4").node().checked == true){
@@ -3577,10 +3577,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 210)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check5  />park</form>")
+        .html("<form><input type=checkbox id=check5  />Park</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check5").node().checked);
 				if (svg.select("#check5").node().checked == true){
@@ -3594,10 +3594,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 260)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check6 />church</form>")
+        .html("<form><input type=checkbox id=check6 />Church</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check6").node().checked);
 				if (svg.select("#check6").node().checked == true){
@@ -3613,7 +3613,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check7 />job interview</form>")
+        .html("<form><input type=checkbox id=check7 />Job interview</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check7").node().checked);
 				if (svg.select("#check7").node().checked == true){
@@ -3626,10 +3626,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 425)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check8 />sidewalk</form>")
+        .html("<form><input type=checkbox id=check8 />Sidewalk</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check8").node().checked);
 				if (svg.select("#check8").node().checked == true){
@@ -3644,10 +3644,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 500)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check9 />movies</form>")
+        .html("<form><input type=checkbox id=check9 />Movies</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check9").node().checked);
 				if (svg.select("#check9").node().checked == true){
@@ -3660,10 +3660,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 565)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check10 />bar</form>")
+        .html("<form><input type=checkbox id=check10 />Bar</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check10").node().checked);
 				if (svg.select("#check10").node().checked == true){
@@ -3676,10 +3676,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 610)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check11 />elevator</form>")
+        .html("<form><input type=checkbox id=check11 />Elevator</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check11").node().checked);
 				if (svg.select("#check11").node().checked == true){
@@ -3692,10 +3692,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 680)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check12 checked=true/>restroom</form>")
+        .html("<form><input type=checkbox id=check12 checked=true/>Restroom</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check12").node().checked);
 
@@ -3706,7 +3706,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check13 />own room</form>")
+        .html("<form><input type=checkbox id=check13 />Own room</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check13").node().checked);
 		if (svg.select("#check13").node().checked == true){
@@ -3721,7 +3721,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check14 />dorm lounge</form>")
+        .html("<form><input type=checkbox id=check14 />Dorm lounge</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check14").node().checked);
 		if (svg.select("#check14").node().checked == true){
@@ -3736,7 +3736,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check15 />football game</form>")
+        .html("<form><input type=checkbox id=check15 />Football game</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check15").node().checked);
 		if (svg.select("#check15").node().checked == true){
@@ -3748,10 +3748,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 1060)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average**</form>")
+        .html("<form><input type=checkbox id=check16 />Average*</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -3834,10 +3834,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", -50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check1  />class</form>")
+        .html("<form><input type=checkbox id=check1  />Class</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check1").node().checked);
 			if (svg.select("#check1").node().checked == true){
@@ -3850,10 +3850,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 0)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check2  />date</form>")
+        .html("<form><input type=checkbox id=check2  />Date</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check2").node().checked);
 		if (svg.select("#check2").node().checked == true){
@@ -3865,10 +3865,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check3  />bus</form>")
+        .html("<form><input type=checkbox id=check3  />Bus</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check3").node().checked);
 		if (svg.select("#check3").node().checked == true){
@@ -3883,7 +3883,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check4  />family dinner</form>")
+        .html("<form><input type=checkbox id=check4  />Family dinner</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check4").node().checked);
 				if (svg.select("#check4").node().checked == true){
@@ -3896,10 +3896,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 210)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check5  />park</form>")
+        .html("<form><input type=checkbox id=check5  />Park</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check5").node().checked);
 				if (svg.select("#check5").node().checked == true){
@@ -3913,10 +3913,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 260)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check6 />church</form>")
+        .html("<form><input type=checkbox id=check6 />Church</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check6").node().checked);
 				if (svg.select("#check6").node().checked == true){
@@ -3932,7 +3932,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check7 />job interview</form>")
+        .html("<form><input type=checkbox id=check7 />Job interview</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check7").node().checked);
 				if (svg.select("#check7").node().checked == true){
@@ -3945,10 +3945,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 425)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check8 />sidewalk</form>")
+        .html("<form><input type=checkbox id=check8 />Sidewalk</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check8").node().checked);
 				if (svg.select("#check8").node().checked == true){
@@ -3963,10 +3963,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 500)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check9 />movies</form>")
+        .html("<form><input type=checkbox id=check9 />Movies</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check9").node().checked);
 				if (svg.select("#check9").node().checked == true){
@@ -3979,10 +3979,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 565)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check10 />bar</form>")
+        .html("<form><input type=checkbox id=check10 />Bar</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check10").node().checked);
 				if (svg.select("#check10").node().checked == true){
@@ -3995,10 +3995,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 610)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check11 />elevator</form>")
+        .html("<form><input type=checkbox id=check11 />Elevator</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check11").node().checked);
 				if (svg.select("#check11").node().checked == true){
@@ -4011,10 +4011,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 680)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check12 />restroom</form>")
+        .html("<form><input type=checkbox id=check12 />Restroom</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check12").node().checked);
 				if (svg.select("#check12").node().checked == true){
@@ -4030,7 +4030,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check13 checked=true/>own room</form>")
+        .html("<form><input type=checkbox id=check13 checked=true/>Own room</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check13").node().checked);
 
@@ -4041,7 +4041,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check14 />dorm lounge</form>")
+        .html("<form><input type=checkbox id=check14 />Dorm lounge</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check14").node().checked);
 		if (svg.select("#check14").node().checked == true){
@@ -4056,7 +4056,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check15 />football game</form>")
+        .html("<form><input type=checkbox id=check15 />Football game</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check15").node().checked);
 		if (svg.select("#check15").node().checked == true){
@@ -4068,10 +4068,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 1060)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average**</form>")
+        .html("<form><input type=checkbox id=check16 />Average*</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -4154,10 +4154,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", -50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check1  />class</form>")
+        .html("<form><input type=checkbox id=check1  />Class</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check1").node().checked);
 			if (svg.select("#check1").node().checked == true){
@@ -4170,10 +4170,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 0)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check2  />date</form>")
+        .html("<form><input type=checkbox id=check2  />Date</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check2").node().checked);
 		if (svg.select("#check2").node().checked == true){
@@ -4185,10 +4185,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check3  />bus</form>")
+        .html("<form><input type=checkbox id=check3  />Bus</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check3").node().checked);
 		if (svg.select("#check3").node().checked == true){
@@ -4203,7 +4203,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check4  />family dinner</form>")
+        .html("<form><input type=checkbox id=check4  />Family dinner</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check4").node().checked);
 				if (svg.select("#check4").node().checked == true){
@@ -4216,10 +4216,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 210)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check5  />park</form>")
+        .html("<form><input type=checkbox id=check5  />Park</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check5").node().checked);
 				if (svg.select("#check5").node().checked == true){
@@ -4233,10 +4233,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 260)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check6 />church</form>")
+        .html("<form><input type=checkbox id=check6 />Church</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check6").node().checked);
 				if (svg.select("#check6").node().checked == true){
@@ -4252,7 +4252,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check7 />job interview</form>")
+        .html("<form><input type=checkbox id=check7 />Job interview</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check7").node().checked);
 				if (svg.select("#check7").node().checked == true){
@@ -4265,10 +4265,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 425)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check8 />sidewalk</form>")
+        .html("<form><input type=checkbox id=check8 />Sidewalk</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check8").node().checked);
 				if (svg.select("#check8").node().checked == true){
@@ -4283,10 +4283,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 500)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check9 />movies</form>")
+        .html("<form><input type=checkbox id=check9 />Movies</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check9").node().checked);
 				if (svg.select("#check9").node().checked == true){
@@ -4299,10 +4299,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 565)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check10 />bar</form>")
+        .html("<form><input type=checkbox id=check10 />Bar</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check10").node().checked);
 				if (svg.select("#check10").node().checked == true){
@@ -4315,10 +4315,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 610)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check11 />elevator</form>")
+        .html("<form><input type=checkbox id=check11 />Elevator</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check11").node().checked);
 				if (svg.select("#check11").node().checked == true){
@@ -4331,10 +4331,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 680)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check12 />restroom</form>")
+        .html("<form><input type=checkbox id=check12 />Restroom</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check12").node().checked);
 				if (svg.select("#check12").node().checked == true){
@@ -4350,7 +4350,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check13 />own room</form>")
+        .html("<form><input type=checkbox id=check13 />Own room</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check13").node().checked);
 				if (svg.select("#check13").node().checked == true){
@@ -4366,7 +4366,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check14 checked=true/>dorm lounge</form>")
+        .html("<form><input type=checkbox id=check14 checked=true/>Dorm lounge</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check14").node().checked);
 
@@ -4377,7 +4377,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check15 />football game</form>")
+        .html("<form><input type=checkbox id=check15 />Football game</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check15").node().checked);
 		if (svg.select("#check15").node().checked == true){
@@ -4389,10 +4389,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 1060)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average**</form>")
+        .html("<form><input type=checkbox id=check16 />Average*</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -4475,10 +4475,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", -50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check1  />class</form>")
+        .html("<form><input type=checkbox id=check1  />Class</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check1").node().checked);
 			if (svg.select("#check1").node().checked == true){
@@ -4491,10 +4491,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 0)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check2  />date</form>")
+        .html("<form><input type=checkbox id=check2  />Date</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check2").node().checked);
 		if (svg.select("#check2").node().checked == true){
@@ -4506,10 +4506,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check3  />bus</form>")
+        .html("<form><input type=checkbox id=check3  />Bus</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check3").node().checked);
 		if (svg.select("#check3").node().checked == true){
@@ -4524,7 +4524,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check4  />family dinner</form>")
+        .html("<form><input type=checkbox id=check4  />Family dinner</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check4").node().checked);
 				if (svg.select("#check4").node().checked == true){
@@ -4537,10 +4537,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 210)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check5  />park</form>")
+        .html("<form><input type=checkbox id=check5  />Park</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check5").node().checked);
 				if (svg.select("#check5").node().checked == true){
@@ -4554,10 +4554,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 260)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check6 />church</form>")
+        .html("<form><input type=checkbox id=check6 />Church</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check6").node().checked);
 				if (svg.select("#check6").node().checked == true){
@@ -4573,7 +4573,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check7 />job interview</form>")
+        .html("<form><input type=checkbox id=check7 />Job interview</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check7").node().checked);
 				if (svg.select("#check7").node().checked == true){
@@ -4586,10 +4586,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 425)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check8 />sidewalk</form>")
+        .html("<form><input type=checkbox id=check8 />Sidewalk</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check8").node().checked);
 				if (svg.select("#check8").node().checked == true){
@@ -4604,10 +4604,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 500)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check9 />movies</form>")
+        .html("<form><input type=checkbox id=check9 />Movies</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check9").node().checked);
 				if (svg.select("#check9").node().checked == true){
@@ -4620,10 +4620,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 565)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check10 />bar</form>")
+        .html("<form><input type=checkbox id=check10 />Bar</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check10").node().checked);
 				if (svg.select("#check10").node().checked == true){
@@ -4636,10 +4636,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 610)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check11 />elevator</form>")
+        .html("<form><input type=checkbox id=check11 />Elevator</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check11").node().checked);
 				if (svg.select("#check11").node().checked == true){
@@ -4652,10 +4652,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 680)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check12 />restroom</form>")
+        .html("<form><input type=checkbox id=check12 />Restroom</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check12").node().checked);
 				if (svg.select("#check12").node().checked == true){
@@ -4671,7 +4671,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check13 />own room</form>")
+        .html("<form><input type=checkbox id=check13 />Own room</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check13").node().checked);
 				if (svg.select("#check13").node().checked == true){
@@ -4687,7 +4687,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check14 />dorm lounge</form>")
+        .html("<form><input type=checkbox id=check14 />Dorm lounge</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check14").node().checked);
 				if (svg.select("#check14").node().checked == true){
@@ -4703,7 +4703,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check15 checked=true/>football game</form>")
+        .html("<form><input type=checkbox id=check15 checked=true/>Football game</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check15").node().checked);
 
@@ -4711,10 +4711,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 1060)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average**</form>")
+        .html("<form><input type=checkbox id=check16 />Average*</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -4797,10 +4797,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", -50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check1  />class</form>")
+        .html("<form><input type=checkbox id=check1  />Class</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check1").node().checked);
 			if (svg.select("#check1").node().checked == true){
@@ -4813,10 +4813,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 0)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check2  />date</form>")
+        .html("<form><input type=checkbox id=check2  />Date</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check2").node().checked);
 		if (svg.select("#check2").node().checked == true){
@@ -4828,10 +4828,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 50)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check3  />bus</form>")
+        .html("<form><input type=checkbox id=check3  />Bus</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check3").node().checked);
 		if (svg.select("#check3").node().checked == true){
@@ -4846,7 +4846,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check4  />family dinner</form>")
+        .html("<form><input type=checkbox id=check4  />Family dinner</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check4").node().checked);
 				if (svg.select("#check4").node().checked == true){
@@ -4859,10 +4859,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 210)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check5  />park</form>")
+        .html("<form><input type=checkbox id=check5  />Park</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check5").node().checked);
 				if (svg.select("#check5").node().checked == true){
@@ -4876,10 +4876,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 260)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check6 />church</form>")
+        .html("<form><input type=checkbox id=check6 />Church</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check6").node().checked);
 				if (svg.select("#check6").node().checked == true){
@@ -4895,7 +4895,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check7 />job interview</form>")
+        .html("<form><input type=checkbox id=check7 />Job interview</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check7").node().checked);
 				if (svg.select("#check7").node().checked == true){
@@ -4908,10 +4908,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 425)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check8 />sidewalk</form>")
+        .html("<form><input type=checkbox id=check8 />Sidewalk</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check8").node().checked);
 				if (svg.select("#check8").node().checked == true){
@@ -4926,10 +4926,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 500)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check9 />movies</form>")
+        .html("<form><input type=checkbox id=check9 />Movies</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check9").node().checked);
 				if (svg.select("#check9").node().checked == true){
@@ -4942,10 +4942,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 565)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check10 />bar</form>")
+        .html("<form><input type=checkbox id=check10 />Bar</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check10").node().checked);
 				if (svg.select("#check10").node().checked == true){
@@ -4958,10 +4958,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 610)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check11 />elevator</form>")
+        .html("<form><input type=checkbox id=check11 />Elevator</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check11").node().checked);
 				if (svg.select("#check11").node().checked == true){
@@ -4974,10 +4974,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 680)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check12 />restroom</form>")
+        .html("<form><input type=checkbox id=check12 />Restroom</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check12").node().checked);
 				if (svg.select("#check12").node().checked == true){
@@ -4993,7 +4993,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check13 />own room</form>")
+        .html("<form><input type=checkbox id=check13 />Own room</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check13").node().checked);
 				if (svg.select("#check13").node().checked == true){
@@ -5009,7 +5009,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check14 />dorm lounge</form>")
+        .html("<form><input type=checkbox id=check14 />Dorm lounge</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check14").node().checked);
 				if (svg.select("#check14").node().checked == true){
@@ -5025,7 +5025,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check15 />football game</form>")
+        .html("<form><input type=checkbox id=check15 />Football game</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check15").node().checked);
 				if (svg.select("#check15").node().checked == true){
@@ -5038,10 +5038,10 @@ d3.csv("bar-data.csv", function(error, data) {
  svg.append("foreignObject")
 		.attr("x", 1060)
 		.attr("y", 250)
-        .attr("width", 100)
+        .attr("width", 150)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 checked=true/>Average**</form>")
+        .html("<form><input type=checkbox id=check16 checked=true/>Average*</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 
