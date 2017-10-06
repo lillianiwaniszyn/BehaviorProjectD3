@@ -5,7 +5,7 @@
 	<style>
 
 	.axis {
-	  font: 10px sans-serif;
+	  font: 12px sans-serif;
 	}
 
 	.axis path,
@@ -14,14 +14,29 @@
 	  stroke: #000;
 	  shape-rendering: crispEdges;
 	}
+	.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+}
 
 	</style>
 </head>
 
 <body>
+  <header>
+    <h1 align="center" >CPSC 581 Assignment 1</h1>
+	<h2 align="center" >Behavior Appropriateness Mean Data Visualized</h2>
+	<p align="center">Check boxes Below X-Axis to see appropriateness ratings in that particular place.</p>
+
+  </header>
+
 	
 <script src="http://d3js.org/d3.v3.min.js"></script>
 
 <script src="A1.js"></script>
-
+<div class="footer">*Average was calculated as the average over the 15 different places for those activities.</div>
 </body>

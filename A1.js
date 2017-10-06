@@ -288,7 +288,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 100)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average</form>")
+        .html("<form><input type=checkbox id=check16 />Average*</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -301,7 +301,7 @@ d3.csv("bar-data.csv", function(error, data) {
   svg.selectAll("bar")
       .data(data)
     .enter().append("rect")
-      .style("fill", "steelblue")
+      .style("fill", "#663399")
       .attr("x", function(d) { return x(d.date); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.value); })
@@ -606,7 +606,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 100)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average</form>")
+        .html("<form><input type=checkbox id=check16 />Average*</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -619,7 +619,7 @@ d3.csv("bar-data.csv", function(error, data) {
   svg.selectAll("bar")
       .data(data)
     .enter().append("rect")
-      .style("fill", "steelblue")
+      .style("fill", "#663399")
       .attr("x", function(d) { return x(d.date); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.value); })
@@ -916,7 +916,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 100)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average</form>")
+        .html("<form><input type=checkbox id=check16 />Average**</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -929,7 +929,7 @@ d3.csv("bar-data.csv", function(error, data) {
   svg.selectAll("bar")
       .data(data)
     .enter().append("rect")
-      .style("fill", "steelblue")
+      .style("fill", "#663399")
       .attr("x", function(d) { return x(d.date); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.value); })
@@ -1227,7 +1227,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 100)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average</form>")
+        .html("<form><input type=checkbox id=check16 />Average**</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -1240,7 +1240,7 @@ d3.csv("bar-data.csv", function(error, data) {
   svg.selectAll("bar")
       .data(data)
     .enter().append("rect")
-      .style("fill", "steelblue")
+      .style("fill", "#663399")
       .attr("x", function(d) { return x(d.date); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.value); })
@@ -1539,7 +1539,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 100)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average</form>")
+        .html("<form><input type=checkbox id=check16 />Average**</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -1552,7 +1552,7 @@ d3.csv("bar-data.csv", function(error, data) {
   svg.selectAll("bar")
       .data(data)
     .enter().append("rect")
-      .style("fill", "steelblue")
+      .style("fill", "#663399")
       .attr("x", function(d) { return x(d.date); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.value); })
@@ -1852,7 +1852,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 100)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average</form>")
+        .html("<form><input type=checkbox id=check16 />Average**</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -1865,7 +1865,7 @@ d3.csv("bar-data.csv", function(error, data) {
   svg.selectAll("bar")
       .data(data)
     .enter().append("rect")
-      .style("fill", "steelblue")
+      .style("fill", "#663399")
       .attr("x", function(d) { return x(d.date); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.value); })
@@ -2166,7 +2166,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 100)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average</form>")
+        .html("<form><input type=checkbox id=check16 />Average**</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -2179,7 +2179,7 @@ d3.csv("bar-data.csv", function(error, data) {
   svg.selectAll("bar")
       .data(data)
     .enter().append("rect")
-      .style("fill", "steelblue")
+      .style("fill", "#663399")
       .attr("x", function(d) { return x(d.date); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.value); })
@@ -2481,7 +2481,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 100)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average</form>")
+        .html("<form><input type=checkbox id=check16 />Average**</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -2494,7 +2494,7 @@ d3.csv("bar-data.csv", function(error, data) {
   svg.selectAll("bar")
       .data(data)
     .enter().append("rect")
-      .style("fill", "steelblue")
+      .style("fill", "#663399")
       .attr("x", function(d) { return x(d.date); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.value); })
@@ -2797,7 +2797,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 100)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average</form>")
+        .html("<form><input type=checkbox id=check16 />Average**</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -2810,7 +2810,7 @@ d3.csv("bar-data.csv", function(error, data) {
   svg.selectAll("bar")
       .data(data)
     .enter().append("rect")
-      .style("fill", "steelblue")
+      .style("fill", "#663399")
       .attr("x", function(d) { return x(d.date); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.value); })
@@ -3114,7 +3114,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 100)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average</form>")
+        .html("<form><input type=checkbox id=check16 />Average**</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -3127,7 +3127,7 @@ d3.csv("bar-data.csv", function(error, data) {
   svg.selectAll("bar")
       .data(data)
     .enter().append("rect")
-      .style("fill", "steelblue")
+      .style("fill", "#663399")
       .attr("x", function(d) { return x(d.date); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.value); })
@@ -3432,7 +3432,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 100)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average</form>")
+        .html("<form><input type=checkbox id=check16 />Average**</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -3445,7 +3445,7 @@ d3.csv("bar-data.csv", function(error, data) {
   svg.selectAll("bar")
       .data(data)
     .enter().append("rect")
-      .style("fill", "steelblue")
+      .style("fill", "#663399")
       .attr("x", function(d) { return x(d.date); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.value); })
@@ -3751,7 +3751,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 100)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average</form>")
+        .html("<form><input type=checkbox id=check16 />Average**</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -3764,7 +3764,7 @@ d3.csv("bar-data.csv", function(error, data) {
   svg.selectAll("bar")
       .data(data)
     .enter().append("rect")
-      .style("fill", "steelblue")
+      .style("fill", "#663399")
       .attr("x", function(d) { return x(d.date); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.value); })
@@ -4071,7 +4071,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 100)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average</form>")
+        .html("<form><input type=checkbox id=check16 />Average**</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -4084,7 +4084,7 @@ d3.csv("bar-data.csv", function(error, data) {
   svg.selectAll("bar")
       .data(data)
     .enter().append("rect")
-      .style("fill", "steelblue")
+      .style("fill", "#663399")
       .attr("x", function(d) { return x(d.date); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.value); })
@@ -4392,7 +4392,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 100)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average</form>")
+        .html("<form><input type=checkbox id=check16 />Average**</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -4405,7 +4405,7 @@ d3.csv("bar-data.csv", function(error, data) {
   svg.selectAll("bar")
       .data(data)
     .enter().append("rect")
-      .style("fill", "steelblue")
+      .style("fill", "#663399")
       .attr("x", function(d) { return x(d.date); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.value); })
@@ -4714,7 +4714,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 100)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 />Average</form>")
+        .html("<form><input type=checkbox id=check16 />Average**</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 		if (svg.select("#check16").node().checked == true){
@@ -4727,7 +4727,7 @@ d3.csv("bar-data.csv", function(error, data) {
   svg.selectAll("bar")
       .data(data)
     .enter().append("rect")
-      .style("fill", "steelblue")
+      .style("fill", "#663399")
       .attr("x", function(d) { return x(d.date); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.value); })
@@ -5041,7 +5041,7 @@ d3.csv("bar-data.csv", function(error, data) {
         .attr("width", 100)
         .attr("height", 100)
         .append("xhtml:body")
-        .html("<form><input type=checkbox id=check16 checked=true/>Average</form>")
+        .html("<form><input type=checkbox id=check16 checked=true/>Average**</form>")
 		.on("click", function(d, i){
 		console.log(svg.select("#check16").node().checked);
 
@@ -5050,7 +5050,7 @@ d3.csv("bar-data.csv", function(error, data) {
   svg.selectAll("bar")
       .data(data)
     .enter().append("rect")
-      .style("fill", "steelblue")
+      .style("fill", "#663399")
       .attr("x", function(d) { return x(d.date); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.value); })
