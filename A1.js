@@ -70,7 +70,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});
  svg.append("foreignObject")
-		.attr("x", 0)
+		.attr("x", 2)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -100,7 +100,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 100)
+		.attr("x", 93)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -115,7 +115,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 210)
+		.attr("x", 203)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -131,7 +131,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		});	
 
  svg.append("foreignObject")
-		.attr("x", 260)
+		.attr("x", 252)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -146,7 +146,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 325)
+		.attr("x", 318)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -161,7 +161,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 425)
+		.attr("x", 421)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -223,7 +223,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 680)
+		.attr("x", 685)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -238,7 +238,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 760)
+		.attr("x", 765)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -253,7 +253,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 850)
+		.attr("x", 855)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -268,7 +268,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 950)
+		.attr("x", 960)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -283,7 +283,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 1060)
+		.attr("x", 1070)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -388,7 +388,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});
  svg.append("foreignObject")
-		.attr("x", 0)
+		.attr("x", 2)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -418,7 +418,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 100)
+		.attr("x", 93)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -433,7 +433,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 210)
+		.attr("x", 203)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -449,7 +449,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		});	
 
  svg.append("foreignObject")
-		.attr("x", 260)
+		.attr("x", 252)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -464,7 +464,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 325)
+		.attr("x", 318)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -479,7 +479,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 425)
+		.attr("x", 421)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -541,7 +541,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 680)
+		.attr("x", 685)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -556,7 +556,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 760)
+		.attr("x", 765)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -571,7 +571,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 850)
+		.attr("x", 855)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -586,7 +586,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 950)
+		.attr("x", 960)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -601,7 +601,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 1060)
+		.attr("x", 1070)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -703,7 +703,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});
  svg.append("foreignObject")
-		.attr("x", 0)
+		.attr("x", 2)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -728,7 +728,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		console.log(svg.select("#check3").node().checked);
 		});	
  svg.append("foreignObject")
-		.attr("x", 100)
+		.attr("x", 93)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -743,7 +743,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 210)
+		.attr("x", 203)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -759,7 +759,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		});	
 
  svg.append("foreignObject")
-		.attr("x", 260)
+		.attr("x", 252)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -774,7 +774,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 325)
+		.attr("x", 318)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -789,7 +789,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 425)
+		.attr("x", 421)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -851,7 +851,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 680)
+		.attr("x", 685)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -866,7 +866,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 760)
+		.attr("x", 765)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -881,7 +881,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 850)
+		.attr("x", 855)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -896,7 +896,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 950)
+		.attr("x", 960)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -911,7 +911,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 1060)
+		.attr("x", 1070)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1013,7 +1013,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});
  svg.append("foreignObject")
-		.attr("x", 0)
+		.attr("x", 2)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1043,7 +1043,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 100)
+		.attr("x", 93)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1054,7 +1054,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 210)
+		.attr("x", 203)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1070,7 +1070,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		});	
 
  svg.append("foreignObject")
-		.attr("x", 260)
+		.attr("x", 252)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1085,7 +1085,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 325)
+		.attr("x", 318)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1100,7 +1100,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 425)
+		.attr("x", 421)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1162,7 +1162,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 680)
+		.attr("x", 685)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1177,7 +1177,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 760)
+		.attr("x", 765)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1192,7 +1192,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 850)
+		.attr("x", 855)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1207,7 +1207,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 950)
+		.attr("x", 960)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1222,7 +1222,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 1060)
+		.attr("x", 1070)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1324,7 +1324,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});
  svg.append("foreignObject")
-		.attr("x", 0)
+		.attr("x", 2)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1354,7 +1354,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 100)
+		.attr("x", 93)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1370,7 +1370,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 210)
+		.attr("x", 203)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1382,7 +1382,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		});	
 
  svg.append("foreignObject")
-		.attr("x", 260)
+		.attr("x", 252)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1397,7 +1397,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 325)
+		.attr("x", 318)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1412,7 +1412,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 425)
+		.attr("x", 421)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1474,7 +1474,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 680)
+		.attr("x", 685)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1489,7 +1489,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 760)
+		.attr("x", 765)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1504,7 +1504,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 850)
+		.attr("x", 855)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1519,7 +1519,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 950)
+		.attr("x", 960)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1534,7 +1534,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 1060)
+		.attr("x", 1070)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1636,7 +1636,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});
  svg.append("foreignObject")
-		.attr("x", 0)
+		.attr("x", 2)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1666,7 +1666,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 100)
+		.attr("x", 93)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1682,7 +1682,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 210)
+		.attr("x", 203)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1699,7 +1699,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		});	
 
  svg.append("foreignObject")
-		.attr("x", 260)
+		.attr("x", 252)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1710,7 +1710,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 325)
+		.attr("x", 318)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1725,7 +1725,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 425)
+		.attr("x", 421)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1787,7 +1787,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 680)
+		.attr("x", 685)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1802,7 +1802,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 760)
+		.attr("x", 765)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1817,7 +1817,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 850)
+		.attr("x", 855)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1832,7 +1832,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 950)
+		.attr("x", 960)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1847,7 +1847,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 1060)
+		.attr("x", 1070)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1949,7 +1949,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});
  svg.append("foreignObject")
-		.attr("x", 0)
+		.attr("x", 2)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1979,7 +1979,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 100)
+		.attr("x", 93)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -1995,7 +1995,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 210)
+		.attr("x", 203)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2012,7 +2012,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		});	
 
  svg.append("foreignObject")
-		.attr("x", 260)
+		.attr("x", 252)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2028,7 +2028,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 325)
+		.attr("x", 318)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2039,7 +2039,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 425)
+		.attr("x", 421)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2101,7 +2101,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 680)
+		.attr("x", 685)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2116,7 +2116,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 760)
+		.attr("x", 765)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2131,7 +2131,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 850)
+		.attr("x", 855)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2146,7 +2146,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 950)
+		.attr("x", 960)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2161,7 +2161,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 1060)
+		.attr("x", 1070)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2263,7 +2263,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});
  svg.append("foreignObject")
-		.attr("x", 0)
+		.attr("x", 2)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2293,7 +2293,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 100)
+		.attr("x", 93)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2309,7 +2309,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 210)
+		.attr("x", 203)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2326,7 +2326,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		});	
 
  svg.append("foreignObject")
-		.attr("x", 260)
+		.attr("x", 252)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2342,7 +2342,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 325)
+		.attr("x", 318)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2358,7 +2358,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 425)
+		.attr("x", 421)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2416,7 +2416,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 680)
+		.attr("x", 685)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2431,7 +2431,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 760)
+		.attr("x", 765)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2446,7 +2446,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 850)
+		.attr("x", 855)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2461,7 +2461,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 950)
+		.attr("x", 960)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2476,7 +2476,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 1060)
+		.attr("x", 1070)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2578,7 +2578,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});
  svg.append("foreignObject")
-		.attr("x", 0)
+		.attr("x", 2)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2608,7 +2608,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 100)
+		.attr("x", 93)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2624,7 +2624,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 210)
+		.attr("x", 203)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2641,7 +2641,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		});	
 
  svg.append("foreignObject")
-		.attr("x", 260)
+		.attr("x", 252)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2657,7 +2657,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 325)
+		.attr("x", 318)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2673,7 +2673,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 425)
+		.attr("x", 421)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2732,7 +2732,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 680)
+		.attr("x", 685)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2747,7 +2747,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 760)
+		.attr("x", 765)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2762,7 +2762,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 850)
+		.attr("x", 855)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2777,7 +2777,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 950)
+		.attr("x", 960)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2792,7 +2792,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 1060)
+		.attr("x", 1070)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2894,7 +2894,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});
  svg.append("foreignObject")
-		.attr("x", 0)
+		.attr("x", 2)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2924,7 +2924,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 100)
+		.attr("x", 93)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2940,7 +2940,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 210)
+		.attr("x", 203)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2957,7 +2957,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		});	
 
  svg.append("foreignObject")
-		.attr("x", 260)
+		.attr("x", 252)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2973,7 +2973,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 325)
+		.attr("x", 318)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -2989,7 +2989,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 425)
+		.attr("x", 421)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3049,7 +3049,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 680)
+		.attr("x", 685)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3064,7 +3064,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 760)
+		.attr("x", 765)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3079,7 +3079,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 850)
+		.attr("x", 855)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3094,7 +3094,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 950)
+		.attr("x", 960)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3109,7 +3109,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 1060)
+		.attr("x", 1070)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3211,7 +3211,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});
  svg.append("foreignObject")
-		.attr("x", 0)
+		.attr("x", 2)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3241,7 +3241,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 100)
+		.attr("x", 93)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3257,7 +3257,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 210)
+		.attr("x", 203)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3274,7 +3274,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		});	
 
  svg.append("foreignObject")
-		.attr("x", 260)
+		.attr("x", 252)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3290,7 +3290,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 325)
+		.attr("x", 318)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3306,7 +3306,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 425)
+		.attr("x", 421)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3367,7 +3367,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 680)
+		.attr("x", 685)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3382,7 +3382,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 760)
+		.attr("x", 765)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3397,7 +3397,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 850)
+		.attr("x", 855)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3412,7 +3412,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 950)
+		.attr("x", 960)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3427,7 +3427,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 1060)
+		.attr("x", 1070)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3529,7 +3529,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});
  svg.append("foreignObject")
-		.attr("x", 0)
+		.attr("x", 2)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3559,7 +3559,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 100)
+		.attr("x", 93)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3575,7 +3575,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 210)
+		.attr("x", 203)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3592,7 +3592,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		});	
 
  svg.append("foreignObject")
-		.attr("x", 260)
+		.attr("x", 252)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3608,7 +3608,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 325)
+		.attr("x", 318)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3624,7 +3624,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 425)
+		.attr("x", 421)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3690,7 +3690,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 680)
+		.attr("x", 685)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3701,7 +3701,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});		
  svg.append("foreignObject")
-		.attr("x", 760)
+		.attr("x", 765)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3716,7 +3716,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 850)
+		.attr("x", 855)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3731,7 +3731,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 950)
+		.attr("x", 960)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3746,7 +3746,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 1060)
+		.attr("x", 1070)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3848,7 +3848,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});
  svg.append("foreignObject")
-		.attr("x", 0)
+		.attr("x", 2)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3878,7 +3878,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 100)
+		.attr("x", 93)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3894,7 +3894,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 210)
+		.attr("x", 203)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3911,7 +3911,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		});	
 
  svg.append("foreignObject")
-		.attr("x", 260)
+		.attr("x", 252)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3927,7 +3927,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 325)
+		.attr("x", 318)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -3943,7 +3943,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 425)
+		.attr("x", 421)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4009,7 +4009,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 680)
+		.attr("x", 685)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4025,7 +4025,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});		
  svg.append("foreignObject")
-		.attr("x", 760)
+		.attr("x", 765)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4036,7 +4036,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 850)
+		.attr("x", 855)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4051,7 +4051,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 950)
+		.attr("x", 960)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4066,7 +4066,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 1060)
+		.attr("x", 1070)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4168,7 +4168,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});
  svg.append("foreignObject")
-		.attr("x", 0)
+		.attr("x", 2)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4198,7 +4198,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 100)
+		.attr("x", 93)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4214,7 +4214,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 210)
+		.attr("x", 203)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4231,7 +4231,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		});	
 
  svg.append("foreignObject")
-		.attr("x", 260)
+		.attr("x", 252)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4247,7 +4247,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 325)
+		.attr("x", 318)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4263,7 +4263,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 425)
+		.attr("x", 421)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4329,7 +4329,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 680)
+		.attr("x", 685)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4345,7 +4345,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});		
  svg.append("foreignObject")
-		.attr("x", 760)
+		.attr("x", 765)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4361,7 +4361,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 850)
+		.attr("x", 855)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4372,7 +4372,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 950)
+		.attr("x", 960)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4387,7 +4387,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});		
  svg.append("foreignObject")
-		.attr("x", 1060)
+		.attr("x", 1070)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4489,7 +4489,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});
  svg.append("foreignObject")
-		.attr("x", 0)
+		.attr("x", 2)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4519,7 +4519,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 100)
+		.attr("x", 93)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4535,7 +4535,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 210)
+		.attr("x", 203)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4552,7 +4552,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		});	
 
  svg.append("foreignObject")
-		.attr("x", 260)
+		.attr("x", 252)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4568,7 +4568,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 325)
+		.attr("x", 318)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4584,7 +4584,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 425)
+		.attr("x", 421)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4650,7 +4650,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 680)
+		.attr("x", 685)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4666,7 +4666,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});		
  svg.append("foreignObject")
-		.attr("x", 760)
+		.attr("x", 765)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4682,7 +4682,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 850)
+		.attr("x", 855)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4698,7 +4698,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 950)
+		.attr("x", 960)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4709,7 +4709,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});		
  svg.append("foreignObject")
-		.attr("x", 1060)
+		.attr("x", 1070)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4811,7 +4811,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});
  svg.append("foreignObject")
-		.attr("x", 0)
+		.attr("x", 2)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4841,7 +4841,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		}
 		});	
  svg.append("foreignObject")
-		.attr("x", 100)
+		.attr("x", 93)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4857,7 +4857,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 210)
+		.attr("x", 203)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4874,7 +4874,7 @@ d3.csv("bar-data.csv", function(error, data) {
 		});	
 
  svg.append("foreignObject")
-		.attr("x", 260)
+		.attr("x", 252)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4890,7 +4890,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 325)
+		.attr("x", 318)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4906,7 +4906,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 425)
+		.attr("x", 421)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4972,7 +4972,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 680)
+		.attr("x", 685)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -4988,7 +4988,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});		
  svg.append("foreignObject")
-		.attr("x", 760)
+		.attr("x", 765)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -5004,7 +5004,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 850)
+		.attr("x", 855)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -5020,7 +5020,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});	
  svg.append("foreignObject")
-		.attr("x", 950)
+		.attr("x", 960)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
@@ -5036,7 +5036,7 @@ d3.csv("bar-data.csv", function(error, data) {
 
 		});		
  svg.append("foreignObject")
-		.attr("x", 1060)
+		.attr("x", 1070)
 		.attr("y", 250)
         .attr("width", 150)
         .attr("height", 100)
