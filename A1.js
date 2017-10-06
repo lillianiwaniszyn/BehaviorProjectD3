@@ -28,8 +28,8 @@ var svg = d3.select("body").append("svg")
 d3.csv("bar-data.csv", function(error, data) {
 
     data.forEach(function(d) {
-        d.date = d.class;
-        d.value = +d.date;
+        d.date = d.behavior;
+        d.value = +d.class;
     });
 	
   x.domain(data.map(function(d) { return d.date; }));
